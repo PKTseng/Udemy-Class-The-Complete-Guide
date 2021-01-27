@@ -1,9 +1,16 @@
 const person = {
-  name: 'Max',
+  name: "Max",
   age: 29,
   greet() {
-    console.log('Hi, I am ' + this.name);
-  }
+    console.log("Hi, I am " + this.name);
+  },
 };
 
-person.greet();
+// person.greet();
+
+const hobbies = ["sports", "Cooking"];
+// for (let hobby of hobbies) {
+//   console.log(hobby);
+// }
+console.log(hobbies.mpa((hobby) => "hobby : " + hobby));
+console.log(hobbies);
