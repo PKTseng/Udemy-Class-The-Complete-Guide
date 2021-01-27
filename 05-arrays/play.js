@@ -1,14 +1,17 @@
 const person = {
-  name: 'Max',
+  name: "Max",
   age: 29,
   greet() {
-    console.log('Hi, I am ' + this.name);
-  }
+    // console.log("Hi, I am " + this.name);
+  },
 };
 
-const hobbies = ['Sports', 'Cooking'];
+const hobbies = ["Sports", "Cooking"];
 // for (let hobby of hobbies) {
 //     console.log(hobby);
 // }
-console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+// console.log(hobbies.map((hobby) => "Hobby: " + hobby));
+console.log(hobbies);
+
+hobbies.push("fronted");
 console.log(hobbies);
